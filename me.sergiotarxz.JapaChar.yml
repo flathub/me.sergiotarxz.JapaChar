@@ -80,6 +80,7 @@ modules:
     buildsystem: simple
     build-commands:
       - 'cp -vr JapaCharSource ${FLATPAK_DEST}/JapaChar'
+      - 'glib-compile-resources --sourcedir=${FLATPAK_DEST}/JapaChar ${FLATPAK_DEST}/JapaChar/resources.xml'
       - 'install -Dm644 JapaCharSource/me.sergiotarxz.JapaChar.desktop -t /app/share/applications/'
       - 'install -Dm755 JapaCharSource/run.sh /app/bin/japachar'
       - 'install -Dm644 JapaCharSource/me.sergiotarxz.JapaChar-256.png /app/share/icons/hicolor/256x256/apps/me.sergiotarxz.JapaChar.png'
@@ -87,6 +88,6 @@ modules:
     sources: 
       - type: "git"
         url: 'https://git.owlcode.tech/sergiotarxz/JapaChar'
-        commit: 'f8734148b6c9a6f1e73361b1775cd5bc718496e1'
-        tag: "v0.14"
+        commit: 'f42a127b715ded83f77f7ab8e3a96d6180a53b79'
+        tag: "v0.15"
         dest: 'JapaCharSource'
