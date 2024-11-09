@@ -1,21 +1,15 @@
 [
    {
       "dest": "perl-libs/DBI",
-      "sha256": "8a2b993db560a2c373c174ee976a51027dd780ec766ae17620c20393d2e836fa",
+      "sha256": "e38b7a5efee129decda12383cf894963da971ffac303f54cc1b93e40e3cf9921",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/T/TI/TIMB/DBI-1.643.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/DBI-1.645.tgz"
    },
    {
       "dest": "perl-libs/DBD-SQLite",
-      "sha256": "8994997d84b9feb4547795f78746c661fb72e3cb6a25dbdd789b731f5688a4dd",
+      "sha256": "0a33a7a935be63371071dbe600cfaefa67cd971b67580a917bbf6ebaf723c584",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.74.tar.gz"
-   },
-   {
-      "dest": "perl-libs/ExtUtils-PkgConfig",
-      "sha256": "bbeaced995d7d8d10cfc51a3a5a66da41ceb2bc04fedcab50e10e6300e801c6e",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/X/XA/XAOC/ExtUtils-PkgConfig-1.16.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.76.tar.gz"
    },
    {
       "dest": "perl-libs/ExtUtils-Depends",
@@ -24,16 +18,22 @@
       "url": "https://cpan.metacpan.org/authors/id/X/XA/XAOC/ExtUtils-Depends-0.8001.tar.gz"
    },
    {
-      "dest": "perl-libs/Glib",
-      "sha256": "d715f5a86bcc187075de85e7ae5bc07b0714d6edc196a92da43986efa44e5cbb",
+      "dest": "perl-libs/ExtUtils-PkgConfig",
+      "sha256": "bbeaced995d7d8d10cfc51a3a5a66da41ceb2bc04fedcab50e10e6300e801c6e",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/X/XA/XAOC/Glib-1.3294.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/X/XA/XAOC/ExtUtils-PkgConfig-1.16.tar.gz"
    },
    {
       "dest": "perl-libs/Cairo",
       "sha256": "8219736e401c2311da5f515775de43fd87e6384b504da36a192f2b217643077f",
       "type": "archive",
       "url": "https://cpan.metacpan.org/authors/id/X/XA/XAOC/Cairo-1.109.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Glib",
+      "sha256": "d715f5a86bcc187075de85e7ae5bc07b0714d6edc196a92da43986efa44e5cbb",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/X/XA/XAOC/Glib-1.3294.tar.gz"
    },
    {
       "dest": "perl-libs/Cairo-GObject",
@@ -66,16 +66,16 @@
       "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.002004.tar.gz"
    },
    {
-      "dest": "perl-libs/Class-Method-Modifiers",
-      "sha256": "65cd85bfe475d066e9186f7a8cc636070985b30b0ebb1cde8681cf062c2e15fc",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Method-Modifiers-2.15.tar.gz"
-   },
-   {
       "dest": "perl-libs/Sub-Quote",
       "sha256": "94bebd500af55762e83ea2f2bc594d87af828072370c7110c60c238a800d15b2",
       "type": "archive",
       "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006008.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Class-Method-Modifiers",
+      "sha256": "65cd85bfe475d066e9186f7a8cc636070985b30b0ebb1cde8681cf062c2e15fc",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Method-Modifiers-2.15.tar.gz"
    },
    {
       "dest": "perl-libs/Moo",
@@ -96,22 +96,70 @@
       "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.146.tar.gz"
    },
    {
+      "dest": "perl-libs/Module-Find",
+      "sha256": "4bcaaa376915014728d4f533a98c5b59d665051cd3cdbafc960e5a66fd131092",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.16.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Class-Inspector",
+      "sha256": "cc295d23a472687c24489d58226ead23b9fdc2588e522f0b5f0747741700694e",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Algorithm-C3",
+      "sha256": "aaf48467765deea6e48054bc7d43e46e4d40cbcda16552c629d37be098289309",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Algorithm-C3-0.11.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Class-C3",
+      "sha256": "84053cf1a68fcc8c12056c2f120adf04f7f68e3be34f4408e95d026fee67e33e",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Class-C3-0.35.tar.gz"
+   },
+   {
+      "dest": "perl-libs/MRO-Compat",
+      "sha256": "0d4535f88e43babd84ab604866215fc4d04398bd4db7b21852d4a31b1c15ef61",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.15.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Class-C3-Componentised",
+      "sha256": "3051b146dc1efeaea1a9a2e9e6b1773080995b898ab583f155658d5fc80b9693",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Class-C3-Componentised-1.001002.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Test-Deep",
+      "sha256": "b6591f6ccdd853c7efc9ff3c5756370403211cffe46047f082b1cd1611a84e5f",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.204.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Scope-Guard",
+      "sha256": "8c9b1bea5c56448e2c3fadc65d05be9e4690a3823a80f39d2f10fdd8f777d278",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz"
+   },
+   {
       "dest": "perl-libs/Module-Build",
       "sha256": "66aeac6127418be5e471ead3744648c766bd01482825c5b66652675f2bc86a8f",
       "type": "archive",
       "url": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-0.4234.tar.gz"
    },
    {
-      "dest": "perl-libs/Module-Runtime",
-      "sha256": "68302ec646833547d410be28e09676db75006f4aa58a11f3bdb44ffe99f0f024",
+      "dest": "perl-libs/Path-Class",
+      "sha256": "654781948602386f2cb2e4473a739f17dc6953d92aabc2498a4ca2561bc248ce",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.016.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Path-Class-0.37.tar.gz"
    },
    {
-      "dest": "perl-libs/Class-XSAccessor",
-      "sha256": "99c56b395f1239af19901f2feeb125d9ecb4e351a0d80daa9529211a4700a6f2",
+      "dest": "perl-libs/Try-Tiny",
+      "sha256": "ef2d6cab0bad18e3ab1c4e6125cc5f695c7e459899f512451c8fa3ef83fa7fc0",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/S/SM/SMUELLER/Class-XSAccessor-1.19.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.32.tar.gz"
    },
    {
       "dest": "perl-libs/Sub-Name",
@@ -120,10 +168,16 @@
       "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Sub-Name-0.27.tar.gz"
    },
    {
-      "dest": "perl-libs/Class-Accessor-Grouped",
-      "sha256": "35d5b03efc09f67f3a3155c9624126c3e162c8e3ca98ff826db358533a44c4bb",
+      "dest": "perl-libs/Sub-Uplevel",
+      "sha256": "b4f3f63b80f680a421332d8851ddbe5a8e72fcaa74d5d1d98f3c8cc4a3ece293",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Class-Accessor-Grouped-0.10014.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Test-Warn",
+      "sha256": "98ca32e7f2f5ea89b8bfb9a0609977f3d153e242e2e51705126cb954f1a06b57",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/B/BI/BIGJ/Test-Warn-0.37.tar.gz"
    },
    {
       "dest": "perl-libs/Sub-Exporter-Progressive",
@@ -138,58 +192,10 @@
       "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Devel-GlobalDestruction-0.14.tar.gz"
    },
    {
-      "dest": "perl-libs/MRO-Compat",
-      "sha256": "0d4535f88e43babd84ab604866215fc4d04398bd4db7b21852d4a31b1c15ef61",
+      "dest": "perl-libs/Context-Preserve",
+      "sha256": "09914a4c2c7bdb99cab680c183cbf492ec98d6e23fbcc487fcc4ae10567dfd1f",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.15.tar.gz"
-   },
-   {
-      "dest": "perl-libs/Test-Deep",
-      "sha256": "b6591f6ccdd853c7efc9ff3c5756370403211cffe46047f082b1cd1611a84e5f",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.204.tar.gz"
-   },
-   {
-      "dest": "perl-libs/Sub-Uplevel",
-      "sha256": "b4f3f63b80f680a421332d8851ddbe5a8e72fcaa74d5d1d98f3c8cc4a3ece293",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz"
-   },
-   {
-      "dest": "perl-libs/Test-Exception",
-      "sha256": "156b13f07764f766d8b45a43728f2439af81a3512625438deab783b7883eb533",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz"
-   },
-   {
-      "dest": "perl-libs/Clone-Choose",
-      "sha256": "5623481f58cee8edb96cd202aad0df5622d427e5f748b253851dfd62e5123632",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HE/HERMES/Clone-Choose-0.010.tar.gz"
-   },
-   {
-      "dest": "perl-libs/Hash-Merge",
-      "sha256": "ae0522f76539608b61dde14670e79677e0f391036832f70a21f31adde2538644",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HE/HERMES/Hash-Merge-0.302.tar.gz"
-   },
-   {
-      "dest": "perl-libs/SQL-Abstract",
-      "sha256": "35a642662c349420d44be6e0ef7d8765ea743eb12ad14399aa3a232bb94e6e9a",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/M/MS/MSTROUT/SQL-Abstract-2.000001.tar.gz"
-   },
-   {
-      "dest": "perl-libs/Test-Warn",
-      "sha256": "98ca32e7f2f5ea89b8bfb9a0609977f3d153e242e2e51705126cb954f1a06b57",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/B/BI/BIGJ/Test-Warn-0.37.tar.gz"
-   },
-   {
-      "dest": "perl-libs/SQL-Abstract-Classic",
-      "sha256": "4e3d1dfd095b2123268586bb06b86929ea571388d4e941acccbdcda1e108ef28",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/SQL-Abstract-Classic-1.91.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Context-Preserve-0.03.tar.gz"
    },
    {
       "dest": "perl-libs/Variable-Magic",
@@ -198,10 +204,10 @@
       "url": "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.64.tar.gz"
    },
    {
-      "dest": "perl-libs/Try-Tiny",
-      "sha256": "3300d31d8a4075b26d8f46ce864a1d913e0e8467ceeba6655d5d2b2e206c11be",
+      "dest": "perl-libs/Module-Runtime",
+      "sha256": "68302ec646833547d410be28e09676db75006f4aa58a11f3bdb44ffe99f0f024",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.31.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.016.tar.gz"
    },
    {
       "dest": "perl-libs/Module-Implementation",
@@ -247,9 +253,9 @@
    },
    {
       "dest": "perl-libs/Module-Pluggable",
-      "sha256": "b3f2ad45e4fd10b3fb90d912d78d8b795ab295480db56dc64e86b9fa75c5a6df",
+      "sha256": "2743f1cb59c2cac21bf14f0f71beab5ced75a589394a1fd8ac09ecc71599299e",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-5.2.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-6.2.tar.gz"
    },
    {
       "dest": "perl-libs/Config-Any",
@@ -258,52 +264,46 @@
       "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Config-Any-0.33.tar.gz"
    },
    {
-      "dest": "perl-libs/Scope-Guard",
-      "sha256": "8c9b1bea5c56448e2c3fadc65d05be9e4690a3823a80f39d2f10fdd8f777d278",
+      "dest": "perl-libs/Clone-Choose",
+      "sha256": "5623481f58cee8edb96cd202aad0df5622d427e5f748b253851dfd62e5123632",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/H/HE/HERMES/Clone-Choose-0.010.tar.gz"
    },
    {
-      "dest": "perl-libs/Module-Find",
-      "sha256": "4bcaaa376915014728d4f533a98c5b59d665051cd3cdbafc960e5a66fd131092",
+      "dest": "perl-libs/Hash-Merge",
+      "sha256": "ae0522f76539608b61dde14670e79677e0f391036832f70a21f31adde2538644",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.16.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/H/HE/HERMES/Hash-Merge-0.302.tar.gz"
    },
    {
-      "dest": "perl-libs/Class-Inspector",
-      "sha256": "cc295d23a472687c24489d58226ead23b9fdc2588e522f0b5f0747741700694e",
+      "dest": "perl-libs/Test-Exception",
+      "sha256": "156b13f07764f766d8b45a43728f2439af81a3512625438deab783b7883eb533",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz"
    },
    {
-      "dest": "perl-libs/Algorithm-C3",
-      "sha256": "aaf48467765deea6e48054bc7d43e46e4d40cbcda16552c629d37be098289309",
+      "dest": "perl-libs/Class-XSAccessor",
+      "sha256": "99c56b395f1239af19901f2feeb125d9ecb4e351a0d80daa9529211a4700a6f2",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Algorithm-C3-0.11.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/S/SM/SMUELLER/Class-XSAccessor-1.19.tar.gz"
    },
    {
-      "dest": "perl-libs/Class-C3",
-      "sha256": "84053cf1a68fcc8c12056c2f120adf04f7f68e3be34f4408e95d026fee67e33e",
+      "dest": "perl-libs/Class-Accessor-Grouped",
+      "sha256": "35d5b03efc09f67f3a3155c9624126c3e162c8e3ca98ff826db358533a44c4bb",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Class-C3-0.35.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Class-Accessor-Grouped-0.10014.tar.gz"
    },
    {
-      "dest": "perl-libs/Class-C3-Componentised",
-      "sha256": "3051b146dc1efeaea1a9a2e9e6b1773080995b898ab583f155658d5fc80b9693",
+      "dest": "perl-libs/SQL-Abstract",
+      "sha256": "35a642662c349420d44be6e0ef7d8765ea743eb12ad14399aa3a232bb94e6e9a",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Class-C3-Componentised-1.001002.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/M/MS/MSTROUT/SQL-Abstract-2.000001.tar.gz"
    },
    {
-      "dest": "perl-libs/Path-Class",
-      "sha256": "654781948602386f2cb2e4473a739f17dc6953d92aabc2498a4ca2561bc248ce",
+      "dest": "perl-libs/SQL-Abstract-Classic",
+      "sha256": "4e3d1dfd095b2123268586bb06b86929ea571388d4e941acccbdcda1e108ef28",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Path-Class-0.37.tar.gz"
-   },
-   {
-      "dest": "perl-libs/Context-Preserve",
-      "sha256": "09914a4c2c7bdb99cab680c183cbf492ec98d6e23fbcc487fcc4ae10567dfd1f",
-      "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Context-Preserve-0.03.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/SQL-Abstract-Classic-1.91.tar.gz"
    },
    {
       "dest": "perl-libs/DBIx-Class",
@@ -324,6 +324,42 @@
       "url": "https://cpan.metacpan.org/authors/id/D/DD/DDICK/Crypt-URandom-0.40.tar.gz"
    },
    {
+      "dest": "perl-libs/File-ShareDir-Install",
+      "sha256": "8f9533b198f2d4a9a5288cbc7d224f7679ad05a7a8573745599789428bc5aea0",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.14.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Inline",
+      "sha256": "510a7de2d011b0db80b0874e8c0f7390010991000ae135cff7474df1e6d51e3a",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/I/IN/INGY/Inline-0.86.tar.gz"
+   },
+   {
+      "dest": "perl-libs/XXX",
+      "sha256": "d10510ea00f619abf47ab299f148bd5b360cfa07dc0ed518138b7cec72692d2a",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/I/IN/INGY/XXX-0.38.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Pegex",
+      "sha256": "4dc8d335de80b25247cdb3f946f0d10d9ba0b3c34b0ed7d00316fd068fd05edc",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/I/IN/INGY/Pegex-0.75.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Parse-RecDescent",
+      "sha256": "1943336a4cb54f1788a733f0827c0c55db4310d5eae15e542639c9dd85656e37",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/J/JT/JTBRAUN/Parse-RecDescent-1.967015.tar.gz"
+   },
+   {
+      "dest": "perl-libs/Inline-C",
+      "sha256": "10fbcf1e158d1c8d77e1dd934e379165b126a45c13645ad0be9dc07d151dd0cc",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETJ/Inline-C-0.82.tar.gz"
+   },
+   {
       "commands": [
          "set -e",
          "function make_install {",
@@ -340,38 +376,39 @@
          "}",
          "(make_install perl-libs/DBI)",
          "(make_install perl-libs/DBD-SQLite)",
-         "(make_install perl-libs/ExtUtils-PkgConfig)",
          "(make_install perl-libs/ExtUtils-Depends)",
-         "(make_install perl-libs/Glib)",
+         "(make_install perl-libs/ExtUtils-PkgConfig)",
          "(make_install perl-libs/Cairo)",
+         "(make_install perl-libs/Glib)",
          "(make_install perl-libs/Cairo-GObject)",
          "(make_install perl-libs/Glib-Object-Introspection)",
          "(make_install perl-libs/Glib-IO)",
          "(make_install perl-libs/JSON)",
          "(make_install perl-libs/Role-Tiny)",
-         "(make_install perl-libs/Class-Method-Modifiers)",
          "(make_install perl-libs/Sub-Quote)",
+         "(make_install perl-libs/Class-Method-Modifiers)",
          "(make_install perl-libs/Moo)",
          "(make_install perl-libs/YAML-PP)",
          "(make_install perl-libs/Path-Tiny)",
+         "(make_install perl-libs/Module-Find)",
+         "(make_install perl-libs/Class-Inspector)",
+         "(make_install perl-libs/Algorithm-C3)",
+         "(make_install perl-libs/Class-C3)",
+         "(make_install perl-libs/MRO-Compat)",
+         "(make_install perl-libs/Class-C3-Componentised)",
+         "(make_install perl-libs/Test-Deep)",
+         "(make_install perl-libs/Scope-Guard)",
          "(make_install perl-libs/Module-Build)",
-         "(make_install perl-libs/Module-Runtime)",
-         "(make_install perl-libs/Class-XSAccessor)",
+         "(make_install perl-libs/Path-Class)",
+         "(make_install perl-libs/Try-Tiny)",
          "(make_install perl-libs/Sub-Name)",
-         "(make_install perl-libs/Class-Accessor-Grouped)",
+         "(make_install perl-libs/Sub-Uplevel)",
+         "(make_install perl-libs/Test-Warn)",
          "(make_install perl-libs/Sub-Exporter-Progressive)",
          "(make_install perl-libs/Devel-GlobalDestruction)",
-         "(make_install perl-libs/MRO-Compat)",
-         "(make_install perl-libs/Test-Deep)",
-         "(make_install perl-libs/Sub-Uplevel)",
-         "(make_install perl-libs/Test-Exception)",
-         "(make_install perl-libs/Clone-Choose)",
-         "(make_install perl-libs/Hash-Merge)",
-         "(make_install perl-libs/SQL-Abstract)",
-         "(make_install perl-libs/Test-Warn)",
-         "(make_install perl-libs/SQL-Abstract-Classic)",
+         "(make_install perl-libs/Context-Preserve)",
          "(make_install perl-libs/Variable-Magic)",
-         "(make_install perl-libs/Try-Tiny)",
+         "(make_install perl-libs/Module-Runtime)",
          "(make_install perl-libs/Module-Implementation)",
          "(make_install perl-libs/B-Hooks-EndOfScope)",
          "(make_install perl-libs/Dist-CheckConflicts)",
@@ -381,17 +418,22 @@
          "(make_install perl-libs/Data-Dumper-Concise)",
          "(make_install perl-libs/Module-Pluggable)",
          "(make_install perl-libs/Config-Any)",
-         "(make_install perl-libs/Scope-Guard)",
-         "(make_install perl-libs/Module-Find)",
-         "(make_install perl-libs/Class-Inspector)",
-         "(make_install perl-libs/Algorithm-C3)",
-         "(make_install perl-libs/Class-C3)",
-         "(make_install perl-libs/Class-C3-Componentised)",
-         "(make_install perl-libs/Path-Class)",
-         "(make_install perl-libs/Context-Preserve)",
+         "(make_install perl-libs/Clone-Choose)",
+         "(make_install perl-libs/Hash-Merge)",
+         "(make_install perl-libs/Test-Exception)",
+         "(make_install perl-libs/Class-XSAccessor)",
+         "(make_install perl-libs/Class-Accessor-Grouped)",
+         "(make_install perl-libs/SQL-Abstract)",
+         "(make_install perl-libs/SQL-Abstract-Classic)",
          "(make_install perl-libs/DBIx-Class)",
          "(make_install perl-libs/Pango)",
-         "(make_install perl-libs/Crypt-URandom)"
+         "(make_install perl-libs/Crypt-URandom)",
+         "(make_install perl-libs/File-ShareDir-Install)",
+         "(make_install perl-libs/Inline)",
+         "(make_install perl-libs/XXX)",
+         "(make_install perl-libs/Pegex)",
+         "(make_install perl-libs/Parse-RecDescent)",
+         "(make_install perl-libs/Inline-C)"
       ],
       "dest": "perl-libs",
       "dest-filename": "install.sh",
