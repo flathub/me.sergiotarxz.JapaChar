@@ -79,8 +79,8 @@ modules:
   - name: "japachar"
     buildsystem: simple
     build-commands:
-      - 'cd JapaCharSource; perl lib/JapaChar/Fontconfig.pm'
-      - 'chmod 755 -R JapaCharSource/_Inline/'
+      - 'cd JapaCharSource; perl Build.PL'
+      - 'cd JapaCharSource; perl Build build'
       - 'cp -vr JapaCharSource ${FLATPAK_DEST}/JapaChar'
       - 'glib-compile-resources --sourcedir=${FLATPAK_DEST}/JapaChar ${FLATPAK_DEST}/JapaChar/resources.xml'
       - 'install -Dm644 JapaCharSource/me.sergiotarxz.JapaChar.desktop -t /app/share/applications/'
@@ -90,6 +90,6 @@ modules:
     sources: 
       - type: "git"
         url: 'https://git.owlcode.tech/sergiotarxz/JapaChar'
-        commit: '9a358803f392cbba69c1627e741b2b704fcdfda1'
-        tag: "v0.27"
+        commit: 'af6576819ab80881b1056b01d2c4df454dfd5ef7'
+        tag: "v0.28"
         dest: 'JapaCharSource'
