@@ -90,6 +90,6 @@ modules:
     sources: 
       - type: "git"
         url: 'https://git.owlcode.tech/sergiotarxz/JapaChar'
-        commit: 'af6576819ab80881b1056b01d2c4df454dfd5ef7'
-        tag: "v0.28"
+        commit: '2f8e992093546501af00d18c90bcdbfcde8f635f'
+        tag: "v0.29"
         dest: 'JapaCharSource'
