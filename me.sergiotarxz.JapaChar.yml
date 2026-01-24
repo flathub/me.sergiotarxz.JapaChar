@@ -1,6 +1,6 @@
 id: "me.sergiotarxz.JapaChar"
 runtime: "org.gnome.Platform"
-runtime-version: "48"
+runtime-version: "49"
 sdk: "org.gnome.Sdk"
 finish-args:
   - --share=ipc
@@ -89,7 +89,7 @@ modules:
       - 'install -Dm644 JapaCharSource/me.sergiotarxz.JapaChar.metainfo.xml -t /app/share/metainfo/' 
     sources: 
       - type: "git"
-        url: 'https://git.owlcode.tech/sergiotarxz/JapaChar'
-        commit: 'e0b7a02868dd2e6650d3fba5d9f8e9261305929e'
-        tag: "v2.00-rc2"
+        url: 'https://github.com/sergiotarxz/Japachar'
+        commit: '5a4a1504b1189f0ab7f69b6b1eac2f72cd3d8564'
+        tag: "v2.00-rc3"
         dest: 'JapaCharSource'
