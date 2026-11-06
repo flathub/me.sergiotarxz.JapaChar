@@ -1,6 +1,6 @@
 id: "me.sergiotarxz.JapaChar"
 runtime: "org.gnome.Platform"
-runtime-version: "49"
+runtime-version: "51"
 sdk: "org.gnome.Sdk"
 finish-args:
   - --share=ipc
@@ -20,8 +20,8 @@ modules:
         ldflags: '-fpic'
     sources:
         - type: archive
-          url: https://www.cpan.org/src/5.0/perl-5.40.1.tar.gz
-          sha256: 02f8c45bb379ed0c3de7514fad48c714fd46be8f0b536bfd5320050165a1ee26
+          url: https://www.cpan.org/src/5.0/perl-5.44.0.tar.gz
+          sha256: 3b855066b92491cb40e86affb1ca57d1a388aa43e51b91c7806a32c2f65f96c3
         - type: shell
           commands:
             # Have Flatpak run the GNU-compatible configure script.
@@ -90,6 +90,6 @@ modules:
     sources: 
       - type: "git"
         url: 'https://github.com/sergiotarxz/Japachar'
-        commit: 'b5a21489af211ae16ea9014bc101e13a0caf22b1'
-        tag: "v2.00-rc4"
+        commit: 'c8c54b16f236538de3c99fb45908e8e91fad3269'
+        tag: "v2.02"
         dest: 'JapaCharSource'
