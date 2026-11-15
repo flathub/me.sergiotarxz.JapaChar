@@ -90,6 +90,6 @@ modules:
     sources: 
       - type: "git"
         url: 'https://github.com/sergiotarxz/Japachar'
-        commit: 'd1e5cceeed8e865e97298e409ed255205ee65bf6'
-        tag: "v2.06"
+        commit: 'a230d426b248d91580ab26b915e587a36d087c2e'
+        tag: "v2.07"
         dest: 'JapaCharSource'
