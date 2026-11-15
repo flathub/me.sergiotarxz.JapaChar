@@ -331,8 +331,8 @@
    },
    {
         "dest": "perl-libs/algagtk",
-        "commit": "71050e220575cd839ffeae5cea6b41ca6c45a553",
-        "tag": "v1.0.4",
+        "commit": "6c893d6e10cbbb6418f2e996578973473c1c312c",
+        "tag": "v1.0.5",
         "type": "git",
         "url": "https://git.algaos.com/algaos/algagtk.git"
    },
