@@ -87,9 +87,13 @@ modules:
       - 'install -Dm755 JapaCharSource/run.sh /app/bin/japachar'
       - 'install -Dm644 JapaCharSource/me.sergiotarxz.JapaChar-256.png /app/share/icons/hicolor/256x256/apps/me.sergiotarxz.JapaChar.png'
       - 'install -Dm644 JapaCharSource/me.sergiotarxz.JapaChar.metainfo.xml -t /app/share/metainfo/' 
+      - 'install -Dm644 JapaCharSource/me.sergiotarxz.JapaChar-mime.xml /app/share/mime/packages/me.sergiotarxz.JapaChar-mime.xml'
+      - 'install -Dm644 JapaCharSource/me.sergiotarxz.JapaChar-256.png /app/share/icons/hicolor/256x256/mimetypes/me.sergiotarxz.JapaChar-application-x-japasave.png'
+      - 'update-mime-database /app/share/mime'
+      - 'update-desktop-database /app/share/applications'
     sources: 
       - type: "git"
         url: 'https://github.com/sergiotarxz/Japachar'
-        commit: '5cd340f735f40967c01afa1a94aa3f129b3f6250'
-        tag: "v2.11"
+        commit: '67b3b0c33d1292cfc28fd9474ec2952fa6350f52'
+        tag: 'v2.12'
         dest: 'JapaCharSource'
