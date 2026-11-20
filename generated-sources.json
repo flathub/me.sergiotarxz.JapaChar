@@ -330,6 +330,12 @@
       "url": "https://cpan.metacpan.org/authors/id/S/SR/SRI/Mojolicious-9.41.tar.gz"
    },
    {
+      "dest": "perl-libs/Text-CSV",
+      "sha256": "dfcaec925a788b0ba41e51bc6d16e21b0e98b4c7af9b79395090add75f5e506f",
+      "type": "archive",
+      "url": "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-2.06.tar.gz"
+   },
+   {
         "dest": "perl-libs/algagtk",
         "commit": "f1c8aa6c8d6f5f9b34a9c5d8adcd246d55f7bd57",
         "tag": "v1.0.6",
@@ -400,7 +406,8 @@
          "(make_install perl-libs/SQL-Abstract-Classic)",
          "(make_install perl-libs/DBIx-Class)",
          "(make_install perl-libs/Crypt-URandom)",
-         "(make_install perl-libs/Mojolicious)"
+         "(make_install perl-libs/Mojolicious)",
+         "(make_install perl-libs/Text-CSV)"
       ],
       "dest": "perl-libs",
       "dest-filename": "install.sh",
